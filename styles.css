@@ -1,16 +1,43 @@
+nav ul {
+    display: flex;
+    list-style-type: none;
+    font-size: x-large;
+    background-color: lightgrey;
+}
+
+.push-left {
+    margin-right: auto;
+    margin-left: 0px;
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+.landing {
+    font-size: xx-large;
+    font-style: oblique;
+    margin: auto;
+}
+
+.return {
+    font-size: medium;
+    font-weight: 300;
+}
+
 .flex-container {
     display: flex;
 }
 
 .flex-container div {
-    height: 50px;
+    height: 160px;
     flex: 1;
-
 }
 
+
 .block-container {
-    display:block;
+    display: flex;
     margin: 15px;
+    flex-direction: column;
+    
 }
 
 .block-container div {
