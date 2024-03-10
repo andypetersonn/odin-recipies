@@ -3,8 +3,6 @@
 }
 
 .flex-container div {
-    background-color: lightgray;
-    border: 3px solid black;
     height: 50px;
     flex: 1;
 
@@ -27,6 +25,8 @@
 
 .title {
     text-align: center;
+    background-color: lightgray;
+    border: 3px solid black;
 }
 
 .intro {
@@ -35,6 +35,8 @@
     font-style: oblique;
     padding: 15px;
     margin: 15px;
+    background-color: lightgray;
+    border: 3px solid black;
 }
 
 .mb {
