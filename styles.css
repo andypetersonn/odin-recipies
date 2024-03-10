@@ -20,6 +20,7 @@ nav ul {
 .return {
     font-size: medium;
     font-weight: 300;
+    margin: 10px;
 }
 
 .flex-container {
@@ -87,3 +88,8 @@ nav ul {
 .lcm {
     text-align: center;
 }
+
+h1 {
+    text-align: center;
+}
+
